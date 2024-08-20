@@ -9,8 +9,7 @@
   <br>
 </h1>
 
-  <h4 align="center">This project is related to the Project tutorial from <a href="https://www.youtube.com/@ChrisBlakely" target="_blank">Chris Blakely
-</a>.</h4>
+  <h4 align="center">This project is related to the Project tutorial from <a href="https://www.youtube.com/@ChrisBlakely" target="_blank">Chris Blakely</a>.</h4>
 <h4 align="center"><span>NOTE: </span>But everything was written by me and I got the general idea from this video.</h4>
 
 <div align="center">
@@ -48,16 +47,22 @@
   - Below the above is a picture and a simple explanation of the program and how to download it.
   - At the end of this page there is a footer containing the application logo on the left and the terms and privacy on the right.
 
- <div align="center">
+<div align="center">
 
-   
- </div>
+  ![mernOrder-vid1](https://github.com/user-attachments/assets/46c557f6-9b92-4388-b645-27cd44501f4a)
+</div>
+
  
 * Login & SignUp:
   - A third party, <a href="https://auth0.com/" target="_blank">Auth0</a>, was used.
   - Sign up Using Email or Google Accout.
   - If the user is already registered, he can log in.
   - The authId, and email is stored in the MongoDB database.
+
+<div align="center">
+
+  ![Login-Signin](https://github.com/user-attachments/assets/2509b5c8-95da-4852-a7c0-7dc63d3946d2)
+</div>
 
    
 * User Profile:
@@ -69,6 +74,11 @@
     - Country
   - The user can add or modify the following fields: Name, Address Line 1, City, Country.
   - and he can't modify Email.
+ 
+<div align="center">
+
+  ![UserProfile](https://github.com/user-attachments/assets/6c70221b-1ebb-4215-99ab-7ab03d01d7a0)
+</div>
 
  
 * Restaurants Page: After searching using the name of the city or town
@@ -89,7 +99,12 @@
     - This section contains Pagination feature:
       - Only the first 10 restaurants appear, and at the bottom there are numbers to show other restaurants.
 
-     
+<div align="center">
+
+  ![RestaurantsPage](https://github.com/user-attachments/assets/1f72e087-ea0e-4c2c-9f36-9a6ac04da47a)
+</div>   
+
+
 * Restaurant Page: After selecting a specific restaurant
   - At first, the restaurant image appears.
   - Below is the restaurant's name, address and cuisines.
@@ -101,13 +116,23 @@
     - There is also a delivery price.
     - At the bottom there is a button to go to checkout
 
+<div align="center">
+
+  ![RestaurantPage](https://github.com/user-attachments/assets/f2939529-02ad-4f28-ba19-b3b48eafa8d0)
+</div>
+
 
 * Checkout:
   - A third party, <a href="https://stripe.com/" target="_blank">Stripe</a>, was used.
   - The total price is sent to this party.
   - Before payment, the order status must be in the placed state.
   - After successful payment, the order status will be changed to paid but it is called Awaiting Restaurant Confirmation in the Order Status page.
-  
+
+<div algin="center">
+
+  ![Checkout](https://github.com/user-attachments/assets/958ef219-ed30-4583-bb9e-875761a17a2a)
+</div>
+
  
 * Manage Restaurant section contains two sections:
   - First section: Manage Restuarant:
@@ -120,6 +145,11 @@
       - Restaurant Food Cuisines (Select multiple options)
       - Restaurant Menu: add Name, and Price in (£) for each item, and user can remove any item.
       - Restaurant Image
+
+<div align="center">
+
+  ![ManageRestaurant](https://github.com/user-attachments/assets/42715abd-3cba-4134-8af1-e277bfb787eb)
+</div>
         
   - Second section: Orders:
     - Active Orders Counter.
@@ -127,7 +157,12 @@
       - Card Header contains: Customer Name, Delivery Address, Time, Total Cost.
       - List of items and their number.
       - Order Status It can be controlled by the restaurant owner user contains many Select multiple options.
- 
+
+<div align="center">
+
+  ![ManageRestaurantOrder](https://github.com/user-attachments/assets/51974291-bc80-4baf-a651-6fb5ff312476)
+</div>
+
 
 * Order Status: User order from multiple restaurants
   - User order card from multiple restaurants, contains:
@@ -137,3 +172,74 @@
     - Your Order, Items selected by the user
     - On the right side there is a picture of the restaurant.
     - At the end there is the total amount including the delivery price and the price of the items.
+
+<div align="center">
+  
+  ![OrderStatus](https://github.com/user-attachments/assets/bff7321f-f2a2-43f9-9e2c-e50fd51492ff)
+</div>
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Amir-Battal/mern-order-app-frontend.git
+```
+
+Go to the project directory
+
+```bash
+  cd frontend
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the app
+
+```bash
+  npm run dev
+```
+
+NOTE: Run Backend server also.
+
+
+
+## How To Use
+
+Project Deploy on <a href="https://render.com/" target="_blank">Render</a> platform,
+You can use the project through the following link:
+<a href="https://mern-order-app-frontend.onrender.com">Link</a>
+
+
+
+## Credits
+
+This software uses the following open source packages:
+
+- [Node.js](https://nodejs.org/)
+- [React.js](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [shadcn](https://ui.shadcn.com/)
+- [Lucide React](https://lucide.dev/guide/packages/lucide-react)
+- [Tailwindcss](https://tailwindcss.com/)
+- [Zod](https://zod.dev/)
+- [Auth0](https://auth0.com/)
+
+
+
+## License
+
+Chris Blakely [Chris Blakely](https://www.youtube.com/@ChrisBlakely)
+
+---
+
+> Linkedin [Amir Battal](https://www.linkedin.com/in/amir-battal/) &nbsp;&middot;&nbsp;
+> GitHub [@Amir-Battal](https://github.com/Amir-Battal) &nbsp;&middot;&nbsp;
+
+
+
