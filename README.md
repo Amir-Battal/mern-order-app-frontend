@@ -199,6 +199,27 @@ Install dependencies
   npm install
 ```
 
+To run this project, you will need to add the following environment variables to your .env file
+
+General Variable
+`VITE_API_BASE_URL`
+
+Auth0 Variables
+`VITE_AUTH0_DOMAIN`
+`VITE_AUTH0_CLIENT_ID`
+`VITE_AUTH0_CALLBACK_URL`
+`VITE_AUTH0_AUDIENCE`
+
+Example
+```bash
+VITE_API_BASE_URL=http://localhost:7001
+
+VITE_AUTH0_DOMAIN=dev-sbpc2bue8v6q77b8.us.auth0.com
+VITE_AUTH0_CLIENT_ID= ... // Secret :)
+VITE_AUTH0_CALLBACK_URL=http://localhost:5173
+VITE_AUTH0_AUDIENCE=mern-order-app-api
+```
+
 Start the app
 
 ```bash
@@ -206,6 +227,7 @@ Start the app
 ```
 
 NOTE: Run Backend server also.
+
 
 
 
