@@ -129,7 +129,7 @@
   - Before payment, the order status must be in the placed state.
   - After successful payment, the order status will be changed to paid but it is called Awaiting Restaurant Confirmation in the Order Status page.
 
-<div algin="center">
+<div align="center">
 
   ![Checkout](https://github.com/user-attachments/assets/958ef219-ed30-4583-bb9e-875761a17a2a)
 </div>
