@@ -227,7 +227,7 @@ Start the app
   npm run dev
 ```
 
-NOTE: Run Backend server also.
+NOTE: Run <a href="https://github.com/Amir-Battal/mern-order-app-backend">Backend</a> server also. 
 
 
 
